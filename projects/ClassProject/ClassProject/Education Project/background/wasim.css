@@ -1,0 +1,15 @@
+
+    /* ...............Contact & Mail Section left top.......... */
+    .contact {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: black;
+      }
+    
+    .mail {
+        position: absolute;
+        top: 10px;
+        left: 176px;
+        color: black;
+      }

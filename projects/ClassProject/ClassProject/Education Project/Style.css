@@ -1,0 +1,313 @@
+
+    /* ...............Contact & Mail Section left top.......... */
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .contact {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          color: blue;
+        }
+      
+      .mail {
+          position: absolute;
+          top: 10px;
+          left: 176px;
+          color: blue;
+        }
+
+      
+  
+        /* unicorn logo..... */
+  
+        .unicorn-logo {
+          position: absolute;
+          top: 50px;
+          left: 50px;
+        }
+  
+        /* Navbar............. */
+        /* .navbar{
+          background-color: blueviolet;
+          float: right;
+          display: flex; */
+          /* padding-left: 100%; */
+        /* padding-left: 581px; */
+      
+      
+   /* -------------------------Latest courses------------------------------- */
+  
+   .latest-course-text {
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 28px;
+    font-weight: 400;
+  }
+    /* -------------------------Card section------------------------------- */
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    }
+    body {
+        background: #ecececdb;
+    }
+    .card-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        max-width: 1250px;
+        margin: 150px auto;
+        padding: 20px;
+        gap: 20px;
+    }
+    .card-list .card-item {
+        /* background: yellowgreen; */
+        padding: 26px;
+        border-radius: 8px;
+        box-shadow: 0px 5px 10px rgba(217, 24, 24, 0.04);
+        list-style: none;
+        cursor: pointer;
+        text-decoration: none;
+        border: 2px solid transparent;
+        transition: border 0.5s ease;
+    }
+    .card-list .card-item:hover {
+        border: 2px solid #000;
+        background-color: #f27c66;
+    }
+    .card-list .card-item img {
+        width: 100%;
+        aspect-ratio: 16/9;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+    .card-list span {
+        display: inline-block;
+        background: #F7DFF5;
+        margin-top: 32px;
+        padding: 8px 15px;
+        font-size: 0.75rem;
+        border-radius: 50px;
+        font-weight: 600;
+    }
+    .card-list .developer {
+        background-color: #F7DFF5; 
+        color: #B22485;
+    }   
+    .card-list .designer {
+        background-color: #d1e8ff;
+        color: #2968a8;
+    }
+    .card-list .editor {
+        background-color: #d6f8d6; 
+        color: #205c20;
+    }
+    .card-item h3 {
+        color: #000;
+        font-size: 1.438rem;
+        margin-top: 28px;
+        font-weight: 600;
+    }
+
+   
+    @media (max-width: 1200px) {
+        .card-list .card-item {
+            padding: 15px;
+        }
+    }
+    @media screen and (max-width: 980px) {
+        .card-list {
+            margin: 0 auto;
+        }
+    }
+    
+    /* icons... */
+  
+    .three{
+      width: 700px;
+      height: 700px;
+      border-radius: 50%;
+      border: 2px solid black;
+      margin: 50px;
+      /* background-image: url(E:\Dev\Wasim\New folder\H340-img.jpg); */
+      background-size: cover;
+      
+  }
+  
+  
+    
+    .float {
+      float: left;
+      height: 100%;
+      margin-right: 15px;
+      display: flex;
+      text-align: justify;
+      /* align-items: flex-end; */
+      /* shape-outside: inset(calc(100% - 195px) 0 0); */
+    }
+    .w{
+      padding-top: 100px;
+    }
+    .s{
+      padding-top: 20px;
+    }
+    .a{
+      text-align-last: center;
+    }
+  
+    @media (min-width: 1200px) {
+      .wrapper {
+          padding: 15px;
+          /* display: flex; */
+      }
+  }
+  @media screen and (min-width: 980px) {
+      .float {
+          margin: 0 auto;
+      }
+  }
+  
+  .ed{
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 120px;
+    
+  
+  }
+  .color{
+    color: brown;
+  }
+  
+  .us{
+    padding-top: 30%;
+    justify-items: center;
+  }
+  
+  .image4{
+    width: 100%;
+    height: 500px;
+  }
+  
+  /* Container holding the image and the text */
+  
+  .wrapper{
+    background-color: white;
+  }
+  
+  
+  /* background-pattern image code */
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .w1{
+    background-color: blueviolet;
+  }
+  .bg1{
+    color: black;
+    padding-top: 50px;
+    height: 150px;
+  }
+  .img1{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+  }
+  button{
+    color: black;
+    background-color: white;
+    padding: 16px 35px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: lightgreen;
+  }
+  
+  
+  /* Numbers */
+  .b1{
+    background-color: #f27c66;
+    background-image: url(background/parallax-1.png);
+    height: 300px;
+    padding-top: 50px;
+  }
+
+  .b2{
+    background-color: #fcb900;
+    background-image: url(background/parallax-1.png);
+    height: 400px;
+    
+    /* display: flex; */
+    /* padding-top: 50px; */
+  }
+ .bcd{
+  width: 100%; 
+  border: 2x solid #000000;
+  word-wrap: break-word;
+  margin-left: 150%;
+ }
+
+ .container1{
+  width: 100%;
+  margin-top: 20%;
+  margin-left: 150%;
+ }
+ @media screen and (max-width: 600px) {
+  .b {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Another Card */
+
+.b5{
+  background-color: green;
+  background-image: url(background/parallax-1.png);
+  height: 400px;
+}
+.maa{
+  color: #fcb900;
+  padding-top: 10%;
+}
+.w{
+  /* background-color: #B22485; */
+  height: 300px;
+}
+.top{
+  padding-top: 10%;
+}
+.lll{
+  justify-content: space-around;
+  font-size: xx-large;
+}
+.wasimha{
+  /* background-color: #fcb900;\   */
+  padding-left: 24%;
+  padding-top: 4%;
+}
+.suraj{
+  padding-left: 14%;
+}
+.contact1{
+  padding-top: 4%;
+  padding-left: 16%;
+}
+.mail1{
+  padding-top: 1%;
+  padding-left: 16%;
+}
+.ta{
+  padding-top: 2%;
+}
+.wasimha{
+  padding-left: 35%;
+  background-color: orange;
+}
